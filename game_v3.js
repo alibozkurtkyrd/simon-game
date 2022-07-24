@@ -32,12 +32,7 @@ $(".btn").on("click",function(){
     {
       flag = checkAnswer(level);
       if (flag){
-        console.log("test if ");
-        console.log("game pattern: " + gamePattern);
-        console.log("userclicked: " + userClickedPattern);
-        // flag = checkAnswer(level);
-        console.log("level: " + level);
-        console.log(flag);
+
         setTimeout(function (){
           nextSequence();
         }, 1000);
@@ -53,13 +48,7 @@ $(".btn").on("click",function(){
 
       else if(flag=checkAnswer2(level) )
       {
-            console.log("test if ");
-            console.log("game pattern: " + gamePattern);
-            console.log("userclicked: " + userClickedPattern);
-            // flag = checkAnswer2(level);
-            console.log("level: " + level);
-            console.log(flag);
-
+            flag = checkAnswer2(level);
       }
 
         else if (!flag)
