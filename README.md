@@ -1,2 +1,2 @@
 # simon-game
-it's a simon game developed by using  jquery.
+it's developed by using  jquery.
